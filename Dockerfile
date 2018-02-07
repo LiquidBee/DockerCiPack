@@ -1,5 +1,5 @@
 FROM microsoft/dotnet:latest
 
-RUN curl -sL https://deb.nodesource.com/setup_8.x | bash -
-RUN apt-get install -y nodejs
+RUN curl -sL https://deb.nodesource.com/setup_9.x | bash -
+RUN apt-get install -y nodejs nuget
 RUN npm install --global yarn
